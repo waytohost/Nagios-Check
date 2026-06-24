@@ -98,13 +98,19 @@ Save and exit the file.
 ## Restart NRPE
 
 ```bash
-systemctl restart nrpe.service
+systemctl restart nrpe.service  
+```
+
+or 
+
+```bash
+systemctl restart xinetd.service
 ```
 
 Verify that NRPE is running:
 
 ```bash
-systemctl status nrpe.service
+systemctl status 
 ```
 
 ---
