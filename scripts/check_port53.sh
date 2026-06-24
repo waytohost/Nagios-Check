@@ -17,6 +17,11 @@ if systemctl is-active --quiet named; then
     exit 0
 fi
 
+if systemctl is-active --quiet systemd-resolved.service; then
+    echo "systemd-resolved.service is running. Skipping."
+    exit 0
+fi
+
 # Port 53 is listening but neither service is active
-echo "Port 53 is listening, but neither pdns nor named service is active"
+echo "Port 53 is listening, but neither resolved ,pdns nor named service is active"
 exit 1
