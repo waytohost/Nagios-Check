@@ -1,5 +1,3 @@
-Here's a GitHub Wiki-ready version:
-
 # Nagios NRPE Check for PowerDNS (pdns) and BIND (named)
 
 ## What are PowerDNS and BIND?
