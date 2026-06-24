@@ -21,7 +21,7 @@ Run the following command:
 You should receive a response similar to:
 
 ```text
-MYSQL OK - Uptime: 15 days 4 hours 22 minutes
+MYSQL OK - Uptime:  $days  $hours $ minutes
 ```
 
 ### If You Receive
