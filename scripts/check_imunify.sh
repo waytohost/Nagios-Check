@@ -10,9 +10,9 @@ else
 users=$(w)
 logins=$(last | head -n 10)
 
-```
+
 echo -e "CRITICAL - Neither Imunify360 nor ImunifyAV is running\n\nCurrent logged users:\n$users\n\nLast logged users:\n$logins"
 exit 2
-```
+
 
 fi
