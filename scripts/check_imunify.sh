@@ -22,7 +22,4 @@ echo "CRITICAL - Neither Imunify360 nor ImunifyAV is running"
 
 exit 2
 
-
-
-
 fi
